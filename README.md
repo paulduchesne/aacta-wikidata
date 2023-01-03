@@ -1,8 +1,7 @@
-# AFI/AACTA Awards -> Wikidata
-AACTA/AFI data import into Wikidata.
+# AFI/AACTA Awards to Wikidata.
 
-Notebook for import of Australian Film Institute (1958-2010) and Australian Academy of Cinema and Television Arts (2011- ) awards for feature film.
+Notebook for import of `Australian Film Institute` (1958 - 2010) and `Australian Academy of Cinema and Television Arts` (2011 - ongoing) awards for feature film into Wikidata.
 
-Original attempts at "flat" string matching based only on source data from the AACTA website introduced issues with accurate entity matching, rebuilt using the same data which can already be found in Wikipedia and the wikipedia -> Wikidata link easy to traverse.
+Original attempts at "cold" string matching from source data introduced inaccurate entity matching, so rebuilt using tables from Wikipedia.
 
-Still a number of absent data points owing to variations in spelling, intention to run a validation pass to fix up remaining items.
+Still many absent data points due to name variations, intention to run secondary validation notebook.
